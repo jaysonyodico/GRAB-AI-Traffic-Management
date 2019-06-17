@@ -7,11 +7,11 @@ This project seeks to accurately forecast travel demand on a specific area and t
 ## Getting Started
 
 This repository contains two jupyter notebooks:
-- `MODEL DEVELOPMENT.ipynb`. This notebook provides a detailed documentation on how the author arrived at the data model. The notebook also contains instructions and docstrings necessary to run every function in the notebook.
+- `MODEL DEVELOPMENT.ipynb`. This notebook provides a detailed documentation on how the author arrived at the data model. The notebook also contains instructions and docstrings necessary to run every function in the notebook. When running this notebook, kindly create a folder named `Traffic Management` and download and unzip the training file from https://s3-ap-southeast-1.amazonaws.com/grab-aiforsea-dataset/traffic-management.zip.
 
 - `PREDICTING THE HOLDOUT DATASET.ipynb`. This notebook contains the codes that are needed to make predictions for the holdout dataset. The code is able to automatically create the desired features for evaluation of the Hold-out test set.
 
-It is highly recommended to go through `MODEL DEVELOPMENT.ipynb` before proceeding to `PREDICTING THE HOLDOUT DATASET.ipynb`.
+It is highly recommended to go through `MODEL DEVELOPMENT.ipynb` before proceeding to `PREDICTING THE HOLDOUT DATASET.ipynb`. 
 
 ### Prerequisites
 
